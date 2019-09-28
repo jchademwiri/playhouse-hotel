@@ -43,6 +43,7 @@ p {
 
 .btn {
   display: inline-block;
+  border-radius: 5px;
   font-size: 18px;
   color: #fff;
   background: #333;
@@ -56,11 +57,15 @@ p {
   color: #333;
 }
 
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
 .bg-dark {
   background: #333;
   color: #fff;
 }
-
 .bg-light {
   background: #f4f4f4;
   color: #333;
@@ -76,6 +81,7 @@ p {
 
 .l-heading {
   font-size: 40px;
+  line-height: 1.2;
 }
 /* Padding */
 .py-1 {
@@ -97,7 +103,7 @@ p {
 #navbar a {
   color: #fff;
 }
-#navbar h1 {
+#navbar .logo {
   float: left;
   padding-top: 20px;
 }
@@ -144,7 +150,7 @@ p {
 /* Home info */
 
 #home-info {
-  height: 400px;
+  height: 450px;
 }
 
 #home-info .info-img {
@@ -199,7 +205,7 @@ p {
 
 /* Testimonials */
 #testimonials {
-  height: 600px;
+  height: 100%;
   background: url('../img/test-bg.jpg') no-repeat center center/cover;
   padding-top: 100px;
 }
@@ -226,6 +232,10 @@ p {
 /* Contact form */
 #contact-form .form-group {
   margin-bottom: 20px;
+}
+#contact-form .form-group input,
+textarea {
+  border-radius: 5px;
 }
 
 #contact-form lable {
